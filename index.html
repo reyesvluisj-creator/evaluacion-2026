@@ -4,14 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
   <title>Higiene Industrial Plus EIRP</title>
 </head>
 
 <body>
   <!--Inicio Header-->
+  <header>
+
+
   <nav>
     <a href="#">
-      <img src="" alt="Logo EIRP+" />
+      <img src="img/logo.png" alt="Logo EIRP+" />
     </a>
 
     <ul>
@@ -24,7 +28,8 @@
 
     <a href="#">Solicitar cotización</a>
   </nav>
-
+    </header>
+<main>
   <p>Operación industrial continua</p>
 
   <h1>Higiene Industrial Plus EIRP</h1>
@@ -41,6 +46,7 @@
   <!--Fin Header-->
 
   <!--Inicio nosotros-->
+  <section>
   <p>Nosotros</p>
 
   <h2>¿Quiénes somos?</h2>
@@ -57,10 +63,13 @@
   </p>
 
   <img src="" alt="Trabajador de higiene industrial" />
-
+</section>
   <!--Fin nosotros-->
+  
 
   <!--Inicio valores-->
+  <section>
+
   <p>Valor diferencial</p>
 
   <h2>¿Por qué elegir EIRP+?</h2>
@@ -90,10 +99,12 @@
     Uso de procesos y productos que protegen activos, personas y
     medio ambiente.
   </p>
+  </section>
   <!--Fin valores-->
 
   <!--Inicio nuestros servicios-->
-  <h2>Nuestros servicios</h2>
+  <section>
+    <h2>Nuestros servicios</h2>
 
   <p>
     Soluciones pensadas para empresas que necesitan continuidad,
@@ -144,9 +155,11 @@
     <li>Habitabilidad minera</li>
     <li>Desengrasado y despeje de áreas críticas</li>
   </ul>
+  </section>
   <!--Fin nuestros servicios-->
 
   <!--Inicio cobertura-->
+  <section>
   <p>Cobertura y seguridad</p>
 
   <h2>Operación en el Norte Grande</h2>
@@ -174,9 +187,12 @@
   <span>Calama</span>
   <span>Antofagasta</span>
   <span>Santiago</span>
+</section>
+
   <!--Fin Cobertura-->
 
   <!--Inicio contacto-->
+<section>
   <p>Contacto</p>
 
   <h2>Solicita una cotización</h2>
@@ -200,29 +216,32 @@
 
     <div>
       <label for="empresa">Empresa</label>
-      <input type="text" placeholder="Nombre de la empresa" />
+      <input id="empresa" type="text" placeholder="Nombre de la empresa" />
     </div>
 
     <div>
       <label for="telefono">Teléfono</label>
-      <input type="tel" placeholder="Ej: +56 9 1234 5678" />
+      <input id="telefono" type="text" placeholder="Ej: +56 9 1234 5678" />
     </div>
 
     <div>
       <label for="email">Correo electrónico</label>
-      <input type="email" placeholder="correo@empresa.cl" />
+      <input id="email" type="email" placeholder="correo@empresa.cl" />
     </div>
 
     <div>
       <label for="mensaje">Mensaje</label>
-      <textarea rows="5" placeholder="Describe tu requerimiento"></textarea>
+    <textarea id="mensaje" rows="5" placeholder="Describe tu requerimiento"></textarea>
     </div>
 
     <button type="submit">Enviar solicitud</button>
   </form>
+  </section> 
   <!--Fin contacto-->
+</main>
 
   <!--Inicio footer-->
+  <footer>
   <h2>EIRP+</h2>
   <p>Soluciones limpias para obras seguras.</p>
 
